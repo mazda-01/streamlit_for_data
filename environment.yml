@@ -1,10 +1,10 @@
 name: streamlit_data
 channels:
  - defaults
- - conda-forge # Обязательно оставляем conda-forge, так как он может быть нужен для базовых либ
+ - conda-forge 
 dependencies:
- - python=3.13.9 # Только python
- - pip           # И сам pip
+ - python=3.13.9
+ - pip
  - pip:
      - altair==5.5.0
      - attrs==25.4.0
